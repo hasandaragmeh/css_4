@@ -1,7 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 .header{
 
     display: flex;
     gap: 232.5px;
+    padding: 21.84px 0px;
+    margin: 0px 160px;
+   
 }
 .list_ul{
     display: flex;
@@ -13,4 +22,20 @@
     display: flex;
     gap: 24px;
     list-style-type: none;
+}
+
+.contants{
+    display: flex;
+    gap: 30px ;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 40px 0px ;
+    margin: 0px 160px;
+
+}
+.contant{
+    width: calc((100% - 90px) / 4);
+}
+img{
+    width: 100%;
 }
