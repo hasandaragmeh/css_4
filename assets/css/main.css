@@ -1,0 +1,16 @@
+.header{
+
+    display: flex;
+    gap: 232.5px;
+}
+.list_ul{
+    display: flex;
+    gap: 60px;
+    list-style-type: none;
+}
+.list_icon{
+
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
+}
